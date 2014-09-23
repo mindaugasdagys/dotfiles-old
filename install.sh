@@ -1,5 +1,6 @@
 #!/bin/sh
 
+<<<<<<< HEAD
 # Symlinks
 
 # Creates ~/.bash_profile too
@@ -24,3 +25,8 @@ source ~/dotfiles/installCask.sh
 echo "Installing Caskfile apps"
 
 
+=======
+# Test brew installs
+
+brew install ack
+>>>>>>> FETCH_HEAD

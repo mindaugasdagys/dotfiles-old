@@ -1,0 +1,41 @@
+# Utilities
+
+cask install alfred
+ 
+cask install dash
+cask install dropbox
+
+# Browsers
+
+cask install google-chrome
+#cask install firefox
+#cask install firefox-nightly
+#cask install glimmerblocker   #ad blocker for mac
+#cask install google-chrome-canary
+
+# Development
+
+cask install github
+cask install sourcetree
+cask install google-drive
+#cask install hydra
+#cask install kaleidoscope
+cask install mou
+#cask install handbrake
+
+# Editors
+
+cask install atom
+cask install sublime-text3
+
+cask install sonos
+
+#kcask install spotify
+
+#cask install transmit
+cask install virtualbox
+cask install vlc
+#cask install webstorm
+cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package && qlmanage -r
+
+cask alfred link
