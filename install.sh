@@ -1,6 +1,5 @@
 #!/bin/sh
 
-<<<<<<< HEAD
 # Symlinks
 
 # Creates ~/.bash_profile too
@@ -11,9 +10,9 @@ ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
 
 
 # Install Homebrew & brew-cask
-    
+
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-    
+
     brew tap caskroom/cask
     brew install brew-cask
     brew tap caskroom/versions
@@ -21,12 +20,13 @@ ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
 # Install brew & brew-cask packages
 
 #!/bin/sh
-source ~/dotfiles/installCask.sh
+source ~/dotfiles/brewInstall.sh
+echo "Installing Homebrew apps"
+
+#!/bin/sh
+source ~/dotfiles/npmInstall.sh
+echo "Installing npm node.js packages"
+
+#!/bin/sh
+source ~/dotfiles/caskInstall.sh
 echo "Installing Caskfile apps"
-
-
-=======
-# Test brew installs
-
-brew install ack
->>>>>>> FETCH_HEAD
