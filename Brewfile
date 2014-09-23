@@ -1,17 +1,17 @@
 # Update Homebrew, formulae, and packages
 
-update
-upgrade
+brew update
+brew upgrade
 
 # Install GNU packages (and override OSX version)
 
-install zsh
+#brew install zsh
 #install bash
 #install bash-completion
 #install coreutils
 #install dockutil
 
-install git
+#brew install git
 #install gnu-sed --default-names
 #install grep --default-names
 #install hub
