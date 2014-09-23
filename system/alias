@@ -1,0 +1,12 @@
+# Aliases go here
+
+alias l='ls -lahG'
+
+
+# Move to function maybe later
+# makes directory and moves cd to it at the same time
+mkd () {
+  mkdir $1
+  cd $1
+}
+

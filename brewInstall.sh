@@ -1,5 +1,10 @@
+# Installs Homebrew packages
 
 brew update
 brew upgrade
 
-brew install wget
+brew install zsh
+
+brew install git
+
+brew install node

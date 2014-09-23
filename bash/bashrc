@@ -1,4 +1,7 @@
 # my bashrc file
 
-alias l='ls -lahG'
+# Reads sources files immediately
 
+source ~/dotfiles/system/env
+source ~/dotfiles/system/alias
+source ~/dotfiles/system/prompt
