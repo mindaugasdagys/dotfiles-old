@@ -1,5 +1,6 @@
 # Environment
 
+# Ensure dotfiles dotfiles [or in other setups ~/bin] directory is loaded first
 export PATH="~/dotfiles:$PATH"
 
 # Prefer US English and use UTF-8

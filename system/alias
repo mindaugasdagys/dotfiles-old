@@ -1,6 +1,18 @@
 # Aliases go here
 
+# Easier navigation: .., ..., ...., ....., ~ and -  #From Mathias
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~" # `cd` is probably faster to type though
+alias -- -="cd -"
+
+# List files
+
 alias l='ls -lahG'
+# List all files colorized in long format, including dot files
+alias la="ls -laF ${colorflag}"
 
 
 # Move to function maybe later
@@ -9,4 +21,3 @@ mkd () {
   mkdir $1
   cd $1
 }
-

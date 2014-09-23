@@ -4,18 +4,18 @@
 
 # Creates ~/.bash_profile too
 ln -s ~/dotfiles/bash/bashrc ~/.bash_profile
-
+# Does not work if ~/.zshrc is alreadpy present. Should be OK on fresh machine
 ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
 
 
 
 # Install Homebrew & brew-cask
 
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-    brew tap caskroom/cask
-    brew install brew-cask
-    brew tap caskroom/versions
+brew tap caskroom/cask
+brew install brew-cask
+brew tap caskroom/versions
 
 # Install brew & brew-cask packages
 
