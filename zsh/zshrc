@@ -1,0 +1,4 @@
+# Symlinked to ~/.zshrc
+
+alias l='ls -lahG'
+

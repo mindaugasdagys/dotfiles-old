@@ -1,0 +1,7 @@
+#!/bins/sh
+
+# Editors
+
+brew cask install atom
+brew cask install sublime-text3
+
