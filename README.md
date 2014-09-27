@@ -1,6 +1,11 @@
 Partly inspired by
 https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789
 
+
+# Before (re)install!
+Disable zini server ssh login.
+Check if passwrd login works. This prevents editing files on server directly.
+
 #Install
 
 On a fresh installation of OS X:

@@ -13,6 +13,7 @@ cask install google-chrome
 # Editors
 brew cask install atom
 brew cask install sublime-text3
+brew cask install brackets
 brew cask install mou
 #brew install webstorm
 
@@ -31,12 +32,14 @@ brew cask install google-drive
 # Development
 brew cask install github
 brew cask install sourcetree
+brew cask install livereload
 #brew cask install virtualbox
 #brew cask install vagrant
 #brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package && qlmanage -r
 
 # Music & Video
 brew cask install vlc
+brew cask install utorrent
 
 #brew cask install spotify
 #brew cask install sonos
