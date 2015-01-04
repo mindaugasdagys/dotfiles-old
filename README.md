@@ -4,8 +4,12 @@ https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789
 <<<<<<< HEAD
 
 # Before (re)install!
-Disable zini server ssh login.
-Check if passwrd login works. This prevents editing files on server directly.
+Disable zini server ssh **keys** login.
+Check if password login works. This prevents editing files on server directly.
+https://help.ubuntu.com/community/SSH/OpenSSH/Configuring
+sudo nano /etc/ssh/sshd_config
+PasswordAuthentication yes
+sudo restart ssh
 =======
 Todo:
 explore Ansible osx provisioning
