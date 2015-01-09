@@ -10,18 +10,24 @@ cask install google-chrome
 #cask install glimmerblocker   #ad blocker for mac
 #cask install google-chrome-canary
 
+#########
 # Editors
+#########
+
 brew cask install atom
 brew cask install sublime-text3
-brew cask install brackets
-brew cask install mou
-#brew install webstorm
+# brew cask install brackets
+# brew cask install mou
+# brew install webstorm
 
 # Utils
 brew cask install iterm2
 
 #brew cask install alfred
 #caskalfred link
+
+# osx window management
+brew cask install spectacle
 
 brew cask install dropbox
 brew cask install google-drive

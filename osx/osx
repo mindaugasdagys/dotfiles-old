@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Disable the sound effects on boot
+sudo nvram SystemAudioVolume=" "
+
+# Automatically hide and show the Dock
+defaults write com.apple.dock autohide -bool true
