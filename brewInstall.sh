@@ -39,15 +39,17 @@ brew install rbenv ruby-build rbenv-gem-rehash
 # Case ZSH
 echo 'eval "$(rbenv init -)"' >> ~/dotfiles/zsh/zshrc
 source ~/dotfiles/zsh/zshrc
+
 # Install Ruby versions
-rbenv install 2.1.3
+rbenv install 2.2.0
 rbenv rehash
-rbenv global 2.1.3
+rbenv global 2.2.0
+
 # Ruby gems
 gem install bundler
 echo "gem: --no-document\n" >> ~/.gemrc
 
-gem install rails
+# gem install rails
 
 # Remove outdated versions from the cellar
-#brew cleanup
+# brew cleanup
