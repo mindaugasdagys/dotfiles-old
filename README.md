@@ -1,8 +1,6 @@
 Partly inspired by
 https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789
 
-<<<<<<< HEAD
-
 # Before (re)install!
 Disable zini server ssh **keys** login.
 Check if password login works. This prevents editing files on server directly.
@@ -13,19 +11,18 @@ sudo restart ssh
 =======
 Todo:
 explore Ansible osx provisioning
-http://il.luminat.us/blog/2014/04/19/how-i-fully-automated-os-x-with-ansible/
-
-
->>>>>>> FETCH_HEAD
+http://il.luminat.us/blog/2014/04/19/how-i-fully-automated-os-x-with-ansible
 
 #Install
 
 On a fresh installation of OS X:
 
+1. Install XCode via AppStore
+
+2. In Terminal:
 ```
 sudo softwareupdate -i -a
 xcode-select --install
-Install the dotfiles with either Git or curl:
 ```
 #Clone with Git
 ```
