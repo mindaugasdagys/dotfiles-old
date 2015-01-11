@@ -1,5 +1,6 @@
 Partly inspired by
 https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789
+http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac
 
 # Before (re)install!
 Disable zini server ssh **keys** login.
