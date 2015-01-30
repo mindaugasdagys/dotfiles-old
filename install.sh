@@ -1,33 +1,47 @@
 #!/bin/sh
 
+#####################
 # Symlinks
+#####################
 
 # Creates ~/.bash_profile too
-ln -s ~/dotfiles/bash/bashrc ~/.bash_profile
+ln -s ~/dotfiles/bashrc ~/.bash_profile
 # Does not work if ~/.zshrc is alreadpy present. Should be OK on fresh machine
-ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
+ln -s ~/dotfiles/zshrc ~/.zshrc
 
+################################
+# Install Homebrew & brew-cask #
+################################
 
+# Check for Homebrew,
+# Install if we don't have it
+if test ! $(which brew); then
+  echo "Installing homebrew..."
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
 
-# Install Homebrew & brew-cask
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
+brew update
 brew doctor
 
 brew tap caskroom/cask
 brew install brew-cask
 brew tap caskroom/versions
+brew tap caskroom/fonts
 
 # Install brew & brew-cask packages
 
 #!/bin/sh
-source ~/dotfiles/brewInstall.sh
-echo "Installing Homebrew apps"
+#source ~/dotfiles/brewInstall.sh
+#echo "Installing Homebrew apps"
+
+# Channge default shell to ZSH
+# TODO - check if necessary add zsh to /etc/shells
+chsh -s $(which zsh)
 
 #!/bin/sh
-source ~/dotfiles/npmInstall.sh
-echo "Installing npm node.js packages"
+#source ~/dotfiles/npmInstall.sh
+#echo "Installing npm node.js packages"
 
 #!/bin/sh
-source ~/dotfiles/caskInstall.sh
-echo "Installing Caskfile apps"
+#source ~/dotfiles/caskInstall.sh
+#echo "Installing Caskfile apps"

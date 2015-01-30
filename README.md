@@ -13,6 +13,9 @@ sudo restart ssh
 Todo:
 explore Ansible osx provisioning
 http://il.luminat.us/blog/2014/04/19/how-i-fully-automated-os-x-with-ansible
+FIX bugs on shell startup
+-bash: /Users/mindaugasdagys/dotfiles/system/z/z.sh: No such file or directory
+-bash: bindkey: command not found
 
 #Install
 
@@ -30,3 +33,7 @@ xcode-select --install
 git clone https://github.com/mindaugasdagys/dotfiles.git
 source dotfiles/install.sh
 ```
+TODO
+
+- chsh to zsh right away
+- setup rupa z

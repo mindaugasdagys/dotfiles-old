@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 
-# Disable the sound effects on boot
+. ~/dotfiles/osx/trackpad
+. ~/dotfiles/osx/dock
+. ~/dotfiles/osx/finder
+#source ~/dotfiles/osx/terminal
+
 sudo nvram SystemAudioVolume=" "
 
-# Automatically hide and show the Dock
-defaults write com.apple.dock autohide -bool true
+# TODO:
+# VLC - fullscreen on startup

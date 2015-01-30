@@ -1,0 +1,22 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
+	"installed_packages":
+	[
+		"AngularJS",
+		"Bootstrap 3 Snippets",
+		"Emmet",
+		"Ionic Framework Snippets",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Package Control",
+		"Sass",
+		"SideBarEnhancements"
+	]
+}
