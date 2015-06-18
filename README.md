@@ -36,4 +36,6 @@ source dotfiles/install.sh
 TODO
 
 - chsh to zsh right away
-- setup rupa z
+- replace? rupa z with ...fasd?
+- set up auto update brew npm git update upgrade cleanup with launchd job scheduler
+http://nathangrigg.net/2012/07/schedule-jobs-using-launchd/
