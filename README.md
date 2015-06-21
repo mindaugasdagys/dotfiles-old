@@ -1,4 +1,5 @@
 Partly inspired by
+https://github.com/webpro/awesome-dotfiles
 https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789
 http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac
 
