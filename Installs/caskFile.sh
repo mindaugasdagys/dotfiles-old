@@ -9,7 +9,7 @@ apps=(
 
   # EDITORS
   atom
-  code
+  visual-studio-code
 
   # UTILITIES
   iterm2
