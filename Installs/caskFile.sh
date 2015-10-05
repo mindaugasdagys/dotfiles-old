@@ -4,30 +4,34 @@ apps=(
 
   # BROWSERS
   google-chrome
-  google-chrome-canary
+  #google-chrome-canary
   #firefox
 
   # EDITORS
   atom
+  code
 
   # UTILITIES
   iterm2
   dropbox
+  # google-drive
   spectacle
+  catchmouse
   #qlcolorcode
   #screenflick
   #slack
   #transmit
   #appcleaner
   github
+  sourcetree
 
   # MUSIC AND VIDEO
   vlc
-  spotify
+  #spotify
 
   # DEVELOPMENT
-  virtualbox
-  vagrant
+  #virtualbox
+  #vagrant
   vagrant-manager
   #tower
 )
