@@ -4,11 +4,11 @@
 sudo ln -s /Users/minds/dotfiles/Installs/Lithuanian\ Keyboards.bundle /Library/Keyboard\ Layouts
 
 # Open Sublime Text from command line
-# ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sl
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sl
 
 # Atom
 # mv ~/.atom ~/dotfiles/installs/Atom
-ln -s ~/dotfiles/installs/Atom ~/.atom
+ln -s ~/dotfiles/installs/Atom ~/.atom 
 
 # Movies
 ln -s /Volumes/Diskas\ 2TB/\!Video ~/Movies/
