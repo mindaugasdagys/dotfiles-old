@@ -2,7 +2,7 @@
 
 # Reads sources files immediately
 
-source ~/dotfiles/system/env
-source ~/dotfiles/system/alias
-source ~/dotfiles/system/prompt
-source ~/dotfiles/system/functions
+. ~/dotfiles/system/env
+. ~/dotfiles/system/alias
+. ~/dotfiles/system/prompt
+. ~/dotfiles/system/functions

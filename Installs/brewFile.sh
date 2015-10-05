@@ -10,7 +10,8 @@ binaries=(
   bash
   zsh
   tree
-  z
+  fasd
+  # z
 
 
 # Runtimes
@@ -28,9 +29,9 @@ binaries=(
 
   # Backup
   # mackup
-  
+
   # Misc
-  
+
 )
 
 echo "installing binaries..."

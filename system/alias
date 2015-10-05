@@ -23,14 +23,4 @@ alias cask='brew cask'
 # Tree - show 1 level deep
 alias tree='tree -L 2'
 
-# Move to function maybe later
-# makes directory and moves cd to it at the same time
-mkd () {
-  mkdir $1
-  cd $1
-}
-
 alias ser='live-server'
-
-# Open Sublime Text from command line
-ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sl
