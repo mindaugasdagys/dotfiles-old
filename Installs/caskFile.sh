@@ -12,6 +12,7 @@ apps=(
   visual-studio-code
 
   # UTILITIES
+  lastpass
   iterm2
   dropbox
   # google-drive
