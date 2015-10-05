@@ -14,7 +14,7 @@ binaries=(
 
 # Runtimes
   node
-  rbenv ruby-build rbenv-gem-rehash
+  #rbenv ruby-build rbenv-gem-rehash
   #python
   #ack
   #hub
@@ -26,7 +26,10 @@ binaries=(
   #mysql
 
   # Backup
-  mackup
+  # mackup
+  
+  # Misc
+  vlc
 )
 
 echo "installing binaries..."
