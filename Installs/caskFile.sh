@@ -24,7 +24,8 @@ apps=(
   #transmit
   #appcleaner
   github
-  sourcetree
+  # Check how to get rid of Sourcetree autoadded setting in git commandline
+  #sourcetree
 
   # MUSIC AND VIDEO
   vlc
