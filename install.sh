@@ -20,29 +20,28 @@ if test ! $(which brew); then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-#brew update
-#brew doctor
+brew update
+brew doctor
 
 brew install caskroom/cask/brew-cask
 #brew tap caskroom/cask
 #brew install brew-cask
 #brew tap caskroom/versions
 #brew tap caskroom/fonts
-
 # Install brew & brew-cask packages
 
 #!/bin/sh
 source ~/dotfiles/installs/brewFile.sh
 echo "Installing Homebrew apps"
 
-# Channge default shell to ZSH
-# TODO - check if necessary add zsh to /etc/shells
-#chsh -s $(which zsh)
+#!/bin/sh
+source ~/dotfiles/installs/caskFile.sh
+echo "Installing Caskfile apps"
 
 #!/bin/sh
 source ~/dotfiles/npmInstall.sh
 echo "Installing npm node.js packages"
 
-#!/bin/sh
-source ~/dotfiles/installs/caskFile.sh
-echo "Installing Caskfile apps"
+# Channge default shell to ZSH
+# TODO - check if necessary add zsh to /etc/shells
+#chsh -s $(which zsh)
