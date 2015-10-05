@@ -30,7 +30,7 @@ binaries=(
   # mackup
   
   # Misc
-  vlc
+  
 )
 
 echo "installing binaries..."
