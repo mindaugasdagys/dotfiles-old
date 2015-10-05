@@ -10,6 +10,7 @@ binaries=(
   bash
   zsh
   tree
+  z
 
 
 # Runtimes
