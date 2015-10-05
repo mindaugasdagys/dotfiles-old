@@ -20,13 +20,14 @@ if test ! $(which brew); then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-brew update
-brew doctor
+#brew update
+#brew doctor
 
-brew tap caskroom/cask
-brew install brew-cask
-brew tap caskroom/versions
-brew tap caskroom/fonts
+brew install caskroom/cask/brew-cask
+#brew tap caskroom/cask
+#brew install brew-cask
+#brew tap caskroom/versions
+#brew tap caskroom/fonts
 
 # Install brew & brew-cask packages
 
@@ -36,7 +37,7 @@ brew tap caskroom/fonts
 
 # Channge default shell to ZSH
 # TODO - check if necessary add zsh to /etc/shells
-chsh -s $(which zsh)
+#chsh -s $(which zsh)
 
 #!/bin/sh
 #source ~/dotfiles/npmInstall.sh
