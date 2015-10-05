@@ -3,12 +3,11 @@
 # Ensure dotfiles dotfiles [or in other setups ~/bin] directory is loaded first
 export PATH="~/dotfiles:$PATH"
 
+# For fasd to work
+eval "$(fasd --init auto)"
+
 # Initialize rbenv
 # eval "$(rbenv init -)"
-
-# Init z https://github.com/rupa/z
-# . ~/dotfiles/system/z/z.sh
-# . /usr/local/bin/brew//etc/profile.d/z.sh
 
 # Prefer US English and use UTF-8
 export LC_ALL="en_US.UTF-8"

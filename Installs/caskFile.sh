@@ -18,6 +18,7 @@ apps=(
   # google-drive
   spectacle
   catchmouse
+  flux
   #qlcolorcode
   #screenflick
   #slack
@@ -27,14 +28,15 @@ apps=(
   # Check how to get rid of Sourcetree autoadded setting in git commandline
   #sourcetree
 
-  # MUSIC AND VIDEO
+  # MUSIC  VIDEO BOOLKS
   vlc
+  kindle
   #spotify
 
   # DEVELOPMENT
   #virtualbox
   #vagrant
-  vagrant-manager
+  # vagrant-manager
   #tower
 )
 

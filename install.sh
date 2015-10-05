@@ -28,6 +28,7 @@ brew install caskroom/cask/brew-cask
 #brew install brew-cask
 #brew tap caskroom/versions
 #brew tap caskroom/fonts
+
 # Install brew & brew-cask packages
 
 #!/bin/sh
@@ -44,4 +45,4 @@ echo "Installing npm node.js packages"
 
 # Channge default shell to ZSH
 # TODO - check if necessary add zsh to /etc/shells
-#chsh -s $(which zsh)
+# chsh -s $(which zsh)
