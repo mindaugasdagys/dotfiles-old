@@ -1,7 +1,8 @@
 # Symlink from mostly server to Finder
 
 # Lith Standart keyboard. Requires sudo password
-sudo ln -s /Users/minds/dotfiles/Installs/Lithuanian\ Keyboards.bundle /Library/Keyboard\ Layouts
+#sudo ln -s /Users/minds/dotfiles/Installs/Lithuanian\ Keyboards.bundle /Library/Keyboard\ Layouts
+#cp /Users/minds/dotfiles/Installs/Lithuanian\ Keyboards.bundle /Library/Keyboard\ Layouts
 
 # Open Sublime Text from command line
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sl

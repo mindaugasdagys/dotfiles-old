@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-. ~/dotfiles/osx/trackpad
-. ~/dotfiles/osx/dock
-. ~/dotfiles/osx/finder
+. ~/dotfiles/osx/trackpad.sh
+. ~/dotfiles/osx/dock.sh
+. ~/dotfiles/osx/finder.sh
 #source ~/dotfiles/osx/terminal
 
 sudo nvram SystemAudioVolume=" "
