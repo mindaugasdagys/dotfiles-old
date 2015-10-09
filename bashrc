@@ -5,4 +5,4 @@
 . ~/dotfiles/system/prompt
 . ~/dotfiles/system/functions
 
- #. ~/dotfiles/osx/osx
+ . ~/dotfiles/osx/osx
