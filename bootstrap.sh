@@ -32,15 +32,15 @@ brew install caskroom/cask/brew-cask
 # Install brew & brew-cask packages
 
 #!/bin/sh
-source ~/dotfiles/installs/brewFile.sh
+source ~/dotfiles/Installs/brewFile.sh
 echo "Installing Homebrew apps"
 
 #!/bin/sh
-source ~/dotfiles/installs/caskFile.sh
+source ~/dotfiles/Installs/caskFile.sh
 echo "Installing Caskfile apps"
 
 #!/bin/sh
-source ~/dotfiles/npmInstall.sh
+source ~/dotfiles/Installs/npmInstall.sh
 echo "Installing npm node.js packages"
 
 # Channge default shell to ZSH
