@@ -7,7 +7,7 @@
 # Creates ~/.bash_profile too
 ln -s ~/dotfiles/bashrc ~/.bash_profile
 # Does not work if ~/.zshrc is alreadpy present. Should be OK on fresh machine
-ln -s ~/dotfiles/zshrc ~/.zshrc
+#ln -s ~/dotfiles/zshrc ~/.zshrc
 
 ################################
 # Install Homebrew & brew-cask #
