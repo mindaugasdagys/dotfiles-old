@@ -10,10 +10,6 @@ PasswordAuthentication yes
 sudo restart ssh
 ```
 =======
-Todo:
-
--bash: /Users/mindaugasdagys/dotfiles/system/z/z.sh: No such file or directory
--bash: bindkey: command not found
 
 #Install
 
@@ -28,7 +24,7 @@ xcode-select --install
 2. Clone with Git
 
 ```
-git clone https://github.com/mindaugasdagys/dotfiles.git
+git clone https://github.com/mindaugasdagys/dotfiles.git ~/.dotfiles
 source dotfiles/install.sh
 ```
 #TODO
