@@ -2,7 +2,7 @@
 - Sync ~/dotfiles with GitHub
 - Disable zini server ssh **keys** login.
 - Check if password login works. This prevents editing files on server directly.
-- 
+-
 https://help.ubuntu.com/community/SSH/OpenSSH/Configuring
 ```
 sudo nano /etc/ssh/sshd_config
@@ -34,6 +34,7 @@ source dotfiles/install.sh
 - chsh to zsh right away
 - set up auto update brew npm git update upgrade cleanup with launchd job scheduler
 http://nathangrigg.net/2012/07/schedule-jobs-using-launchd/
+- test backup
 
 #Credits
 
