@@ -17,14 +17,14 @@ apps=(
   dropbox
   #google-drive
   spectacle
-  catchmouse
+  #catchmouse
   flux
   #qlcolorcode
   #screenflick
   #slack
   #transmit
   #appcleaner
-  github-pages
+  github-desktop
 
   # MUSIC  VIDEO BOOLKS
   vlc

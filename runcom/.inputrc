@@ -5,7 +5,7 @@ set completion-ignore-case on
 set show-all-if-ambiguous on
 
 # Flip through autocompletion matches with Shift-Tab.
-"\e[Z": menu-complete
+#"\e[Z": menu-complete
 
 # from webpro
 # https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789#.txviav6zs

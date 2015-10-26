@@ -31,11 +31,11 @@ brew install caskroom/cask/brew-cask
 echo "Installing Homebrew apps"
 
 #!/bin/sh
-. ~/dotfiles/Installs/caskFile.sh
+. ~/.dotfiles/Installs/caskFile.sh
 echo "Installing Caskfile apps"
 
 #!/bin/sh
-. ~/.dotfiles/Installs/npmFile.sh
+#. ~/.dotfiles/Installs/npmFile.sh
 echo "Installing npm node.js packages"
 
 #!/bin/sh

@@ -1,4 +1,9 @@
 # Before (re)install!
+
+```
+mackup backup
+```
+
 - Sync ~/dotfiles with GitHub
 - Disable zini server ssh **keys** login.
 - Check if password login works. This prevents editing files on server directly.
