@@ -1,4 +1,4 @@
-# Environment
+# Environment VARIABLES
 
 # Ensure dotfiles dotfiles [or in other setups ~/bin] directory is loaded first
 export PATH="~/dotfiles:$PATH"
@@ -15,3 +15,9 @@ export LANG="en_US"
 
 # Use vi-mode in ZSH
 # bindkey -vi
+
+# Case-insensitive globbing (used in pathname expansion)
+shopt -s nocaseglob
+
+# Autocorrect typos in path names when using `cd`
+shopt -s cdspell

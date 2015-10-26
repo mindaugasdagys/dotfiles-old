@@ -9,13 +9,13 @@ apps=(
 
   # EDITORS
   atom
-  visual-studio-code
+#  visual-studio-code
 
   # UTILITIES
   lastpass
   iterm2
   dropbox
-  # google-drive
+  #google-drive
   spectacle
   catchmouse
   flux
@@ -24,20 +24,14 @@ apps=(
   #slack
   #transmit
   #appcleaner
-  github
-  # Check how to get rid of Sourcetree autoadded setting in git commandline
-  #sourcetree
+  github-pages
 
   # MUSIC  VIDEO BOOLKS
   vlc
   kindle
-  #spotify
 
   # DEVELOPMENT
-  #virtualbox
-  #vagrant
-  # vagrant-manager
-  #tower
+  # dockertoolbox
 )
 
 # Install apps to /Applications

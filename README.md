@@ -2,7 +2,7 @@
 - Sync ~/dotfiles with GitHub
 - Disable zini server ssh **keys** login.
 - Check if password login works. This prevents editing files on server directly.
-- 
+-
 https://help.ubuntu.com/community/SSH/OpenSSH/Configuring
 ```
 sudo nano /etc/ssh/sshd_config
@@ -18,14 +18,13 @@ On a fresh installation of OS X:
 1. In Terminal:
 
 ```
-sudo softwareupdate -i -a
 xcode-select --install
 ```
 2. Clone with Git
 
 ```
 git clone https://github.com/mindaugasdagys/dotfiles.git ~/.dotfiles
-source dotfiles/install.sh
+source ~/.dotfiles/bootstrap.sh
 ```
 #TODO
 

@@ -1,7 +1,7 @@
 # Bash functions
 
 # Makes directory and moves cd to it at the same time
-mkd () {
+mk () {
   mkdir $1
   cd $1
 }

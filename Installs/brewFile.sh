@@ -1,16 +1,17 @@
 # Update Homebrew, formulae, and packages
 
 binaries=(
-  
+
   # UTILITIES
   coreutils
-  findutils
+#  findutils
   bash
-  zsh
+#  zsh
   tree
   fasd
 
 # Runtimes
+  #nvm
   node
   #rbenv ruby-build rbenv-gem-rehash
   #python
@@ -22,7 +23,7 @@ binaries=(
   #mysql
 
   # Backup
-  # mackup
+  mackup
 
   # Misc
 

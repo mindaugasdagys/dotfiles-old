@@ -4,10 +4,7 @@
 # Symlinks
 #####################
 
-# Creates ~/.bash_profile too
-ln -s ~/dotfiles/bashrc ~/.bash_profile
-# Does not work if ~/.zshrc is alreadpy present. Should be OK on fresh machine
-#ln -s ~/dotfiles/zshrc ~/.zshrc
+ln -s ~/.dotfiles/runcom/.bash_profile ~
 
 ################################
 # Install Homebrew & brew-cask #
@@ -20,29 +17,37 @@ if test ! $(which brew); then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-brew update
-brew doctor
-
 brew install caskroom/cask/brew-cask
-#brew tap caskroom/cask
-#brew install brew-cask
+
 #brew tap caskroom/versions
 #brew tap caskroom/fonts
 
-# Install brew & brew-cask packages
+##########################################
+# Install brew & brew-cask packages & npm
+##########################################
 
 #!/bin/sh
-source ~/dotfiles/Installs/brewFile.sh
+. ~/.dotfiles/Installs/brewFile.sh
 echo "Installing Homebrew apps"
 
 #!/bin/sh
-source ~/dotfiles/Installs/caskFile.sh
+. ~/dotfiles/Installs/caskFile.sh
 echo "Installing Caskfile apps"
 
 #!/bin/sh
-source ~/dotfiles/Installs/npmInstall.sh
+. ~/.dotfiles/Installs/npmFile.sh
 echo "Installing npm node.js packages"
 
-# Channge default shell to ZSH
-# TODO - check if necessary add zsh to /etc/shells
-# chsh -s $(which zsh)
+#!/bin/sh
+. ~/.dotfiles/Installs/rubyFile.sh
+echo "Installing npm Ruby gems"
+
+##########################################
+# Set up os x
+##########################################
+. ~/.dotfiles/osx/osxdefaults.sh
+
+##########################################
+# Symlink folders
+##########################################
+. ~/.dotfiles/osx/symlink.sh
