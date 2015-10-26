@@ -33,6 +33,7 @@ source ~/.dotfiles/bootstrap.sh
 - chsh to zsh right away
 - set up auto update brew npm git update upgrade cleanup with launchd job scheduler
 http://nathangrigg.net/2012/07/schedule-jobs-using-launchd/
+- test backup
 
 #Credits
 
