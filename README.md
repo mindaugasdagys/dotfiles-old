@@ -31,6 +31,11 @@ xcode-select --install
 git clone https://github.com/mindaugasdagys/dotfiles.git ~/.dotfiles
 source ~/.dotfiles/bootstrap.sh
 ```
+## After install
+```
+mackup restore
+```
+
 #TODO
 
 - backup SSH keys to make server login possible

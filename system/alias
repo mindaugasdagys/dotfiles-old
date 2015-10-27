@@ -24,3 +24,5 @@ alias cask='brew cask'
 alias tree='tree -L 2'
 
 alias ser='live-server'
+
+alias o='atom open'
