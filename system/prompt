@@ -1,3 +1,6 @@
 # Bash prompt
 
+# mind@Mindaugass-MBP: ~/.dotfiles
+# →
+
 PS1='\n\u@\h: \w\n→ '

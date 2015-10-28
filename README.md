@@ -1,5 +1,7 @@
 # Before (re)install!
 
+Backup system first
+
 ```
 mackup backup
 ```

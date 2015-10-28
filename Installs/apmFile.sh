@@ -6,6 +6,11 @@
 #   Right now you can do it using Gist
 apm install package-list-downloader
 
+# WRITING
+apm install markdown-writer
+apm install markdown-scroll-sync
+apm install markdown-format
+
 apm install emmet
 
 apm install linter
