@@ -1,4 +1,4 @@
-# Before (re)install!
+# Before Reinstal
 
 Backup system first
 
