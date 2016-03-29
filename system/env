@@ -7,7 +7,7 @@ export PATH="~/.dotfiles:$PATH"
 eval "$(fasd --init auto)"
 
 # Initialize rbenv
-# eval "$(rbenv init -)"
+eval "$(rbenv init -)"
 
 # Pyenv
 eval "$(pyenv init -)"
