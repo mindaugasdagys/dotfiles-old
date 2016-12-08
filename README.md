@@ -34,6 +34,8 @@ xcode-select --install
 git clone https://github.com/mindaugasdagys/dotfiles.git ~/.dotfiles
 source ~/.dotfiles/bootstrap.sh
 ```
+or install GitHub desktop app and clone this repo
+
 ## After install
 ```
 mackup restore
