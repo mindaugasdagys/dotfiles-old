@@ -17,7 +17,7 @@ if test ! $(which brew); then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-brew install caskroom/cask/brew-cask
+# brew install caskroom/cask/brew-cask
 
 #brew tap caskroom/versions
 #brew tap caskroom/fonts
@@ -39,7 +39,7 @@ echo "Installing Caskfile apps"
 echo "Installing npm node.js packages"
 
 #!/bin/sh
-. ~/.dotfiles/Installs/rubyFile.sh
+# . ~/.dotfiles/Installs/rubyFile.sh
 echo "Installing npm Ruby gems"
 
 ##########################################
